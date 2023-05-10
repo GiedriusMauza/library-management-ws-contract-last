@@ -13,16 +13,5 @@ public interface LibraryService {
     @WebMethod
     Library getLibrary(String name);
 
-    @WebMethod
-    boolean deleteLibrary(String name);
-
-    @WebMethod
-    Library addLibrary(String name);
-
-    @WebMethod
-    int countLibrary();
-
-    @WebMethod
-    List<Library> getAllLibraries();
 
 }

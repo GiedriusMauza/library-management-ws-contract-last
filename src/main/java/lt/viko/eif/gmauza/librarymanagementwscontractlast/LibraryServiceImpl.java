@@ -15,24 +15,4 @@ public class LibraryServiceImpl implements LibraryService {
         return libraryRepositoryImpl.getLibrary(name);
     }
 
-    @Override
-    public boolean deleteLibrary(String name) {
-        return false;
-    }
-
-    @Override
-    public Library addLibrary(String name) {
-        return null;
-    }
-
-    @Override
-    public int countLibrary() {
-        return 0;
-    }
-
-    @Override
-    public List<Library> getAllLibraries() {
-        return null;
-    }
-
 }
