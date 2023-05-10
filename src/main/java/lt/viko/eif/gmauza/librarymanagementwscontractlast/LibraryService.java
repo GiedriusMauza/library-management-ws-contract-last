@@ -14,9 +14,6 @@ public interface LibraryService {
     Library getLibrary(String name);
 
     @WebMethod
-    Library updateLibrary(String name);
-
-    @WebMethod
     boolean deleteLibrary(String name);
 
     @WebMethod
